@@ -3,6 +3,11 @@ How to use Hudi 0.14 on AWS glue
 ![Screenshot 2023-12-12 at 7 12 06 PM](https://github.com/soumilshah1995/hudi-aws-glue-0.14/assets/39345855/526eab16-a37f-4ca3-b6db-98ab267a48b2)
 
 
+# Video Guide 
+* https://youtu.be/HJ6QQN408AE
+
+
+
 # Download The JAR 
 * https://repo1.maven.org/maven2/org/apache/hudi/hudi-spark3.3-bundle_2.12/0.14.0/hudi-spark3.3-bundle_2.12-0.14.0.jar
 * https://repo1.maven.org/maven2/org/apache/spark/spark-avro_2.13/3.3.0/spark-avro_2.13-3.3.0.jar
