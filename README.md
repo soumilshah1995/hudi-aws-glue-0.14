@@ -17,7 +17,7 @@ Step 2: Set the Job Variables
 ![Screenshot 2023-12-19 at 4 10 41 PM](https://github.com/soumilshah1995/hudi-aws-glue-0.14/assets/39345855/e50564a0-38d2-41e6-bd37-92d284f36d6e)
 
 
-# Step  3: Ru GLue job 
+# Step  3: RLI GLue job 
 
 ```
 
@@ -91,7 +91,9 @@ hudi_options = {
     'hoodie.upsert.shuffle.parallelism': 2,
     'hoodie.insert.shuffle.parallelism': 2,
     "hoodie.metadata.record.index.enable": "true",
-    "hoodie.index.type": index
+    "hoodie.index.type": index,
+    "hoodie.metrics.on": "true",
+    "hoodie.metrics.reporter.type": "CLOUDWATCH"
 }
 
 # Create Spark Data Frame
