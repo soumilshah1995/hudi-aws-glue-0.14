@@ -11,6 +11,7 @@ How to use Hudi 0.14 on AWS glue
 # Download The JAR 
 * https://repo1.maven.org/maven2/org/apache/hudi/hudi-spark3.3-bundle_2.12/0.14.0/hudi-spark3.3-bundle_2.12-0.14.0.jar
 * https://repo1.maven.org/maven2/org/apache/spark/spark-avro_2.13/3.3.0/spark-avro_2.13-3.3.0.jar
+* https://repo.maven.apache.org/maven2/org/apache/hudi/hudi-aws-bundle/0.14.0/hudi-aws-bundle-0.14.0.jar
 
 Step 2: Set the Job Variables 
 ![Screenshot 2023-12-19 at 4 10 41 PM](https://github.com/soumilshah1995/hudi-aws-glue-0.14/assets/39345855/e50564a0-38d2-41e6-bd37-92d284f36d6e)
